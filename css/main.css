@@ -55,6 +55,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*.debug {
+    border: 1px dotted orange;
+}*/
+
 ul, ol {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
@@ -63,21 +67,18 @@ ul, ol {
     -webkit-padding-start: 0px;
 }
 
-.debug {
-    border: 1px dotted orange;
-}
+.p-sm { padding: 0.6em;}
+.p-xxl { padding: 10em; }
 
 .bdrds-lg { border-radius: 10px; }
-
 .bdw-1 { border-width: 1px; }
 .bds-solid { border-style: solid; }
 .bdc-fog { border-color: silver;}
 
 .lis-n { list-style: none; }
 
-.p-sm { padding: 0.6em;}
-.p-xxl { padding: 10em; }
 .bgc-cool { background-color: #10ADED; }
+
 .fz-xxl { font-size: 6em; }
 
 .fl-l { float: left; }
